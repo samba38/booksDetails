@@ -1,0 +1,32 @@
+.fail-container {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fail-img {
+  width: 346px;
+  height: 170px;
+  top: 419px;
+  left: 547px;
+}
+
+.fail-heading {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.fail-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  height: 32px;
+  width: 75px;
+  border-radius: 8px;
+  border-width: 0px;
+}

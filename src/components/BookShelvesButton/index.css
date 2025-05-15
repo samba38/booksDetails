@@ -1,0 +1,27 @@
+.book-btn-list-container {
+  list-style-type: none;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-btn-filter {
+  color: #475569;
+  font-family: Roboto;
+  background-color: transparent;
+  border-width: 0px;
+  width: 150px;
+  height: 28px;
+  margin: 8px;
+}
+
+.book-btn-filter2{
+  color: #0284C7;
+  font-family: Roboto;
+  background-color: transparent;
+  border-width: 0px;
+  width: 150px;
+  height: 28px;
+  margin: 8px;
+}

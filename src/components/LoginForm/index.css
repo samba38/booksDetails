@@ -1,0 +1,136 @@
+.login-div-container {
+  background-color: transparent;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.login-container {
+  background-color: #f8fafc;
+  height: 1024px;
+  width: 1440px;
+  top: 9322px;
+  left: 3176px;
+  display: flex;
+}
+
+.coffe-img {
+  height: 1024px;
+  width: 780px;
+}
+
+.small-coffe-img {
+  width: 216px;
+  height: 216px;
+  top: 32px;
+  left: 72px;
+  display: none;
+}
+
+.login-form-container {
+  background-color: white;
+  height: 484px;
+  width: 499px;
+  top: 270px;
+  left: 852px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.book-hub-img {
+  height: 48px;
+  width: 141px;
+  top: 318px;
+  left: 1031px;
+}
+
+.input-container {
+  background-color: transparent;
+  height: 90px;
+  width: 360px;
+  top: 414px;
+  left: 921px;
+  margin: 10px;
+}
+
+.user-input {
+  height: 56px;
+  width: 360px;
+  top: 34px;
+  border-radius: 10px;
+}
+
+.form-label-text {
+  color: #5a7184;
+  font-family: inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  height: 18px;
+  width: 88px;
+  top: 3px;
+}
+
+.form-submit-btn {
+  width: 360px;
+  height: 56px;
+  top: 650px;
+  left: 921px;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.error-paragraph {
+  color: #ef4444;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 767px) {
+  .coffe-img {
+    height: 1024px;
+    width: 780px;
+    display: none;
+  }
+
+  .small-coffe-img {
+    width: 216px;
+    height: 216px;
+    top: 32px;
+    left: 72px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login-form-container {
+    background-color: white;
+    height: 484px;
+    width: 499px;
+    top: 270px;
+    left: 852px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .login-container {
+    background-color: white;
+    height: 1024px;
+    width: 1440px;
+    top: 9322px;
+    left: 3176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
