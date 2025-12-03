@@ -120,7 +120,7 @@
   .home-heading-find-book {
     color: #1e293b;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 60px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0px;
@@ -129,26 +129,23 @@
   .home-paragraph-details {
     color: #475569;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 35px;
     font-weight: 500;
-    width: 700px;
-    letter-spacing: 0px;
-    line-height: 24px;
   }
 
   .home-books-card {
     background-color: #ffffff;
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 800px;
     top: 309px;
     left: 100px;
-    border-radius: 16px;
+    border-radius: 26px;
     box-shadow: 0px 0px 5px 2px #60617029;
     padding: 20px;
   }
 
   .slider-container {
-    height: 300px;
+    height: 500px;
     padding: 50px;
     margin: 10px;
     background-color: gray;
@@ -157,8 +154,9 @@
   .home-books-btn {
     background-color: #0284c7;
     color: white;
-    width: 104px;
-    height: 36px;
+    width: 154px;
+    height: 46px;
+    font-size: 15px;
     border-radius: 4px;
     border-width: 0px;
     padding: 8px;
@@ -168,8 +166,9 @@
   .home-books-btn2 {
     background-color: #0284c7;
     color: white;
-    width: 104px;
-    height: 36px;
+    width: 154px;
+    height: 46px;
+    font-size: 15px;
     border-radius: 4px;
     border-width: 0px;
     padding: 8px;
@@ -178,8 +177,8 @@
   }
   .home-container {
     background-color: #f5f7fa;
-    min-height: 1024px;
-    min-width: 1500px;
+    min-height: 400vh;
+    min-width: 1600px;
     top: 9322px;
     left: 6356px;
   }

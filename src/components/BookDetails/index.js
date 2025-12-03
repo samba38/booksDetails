@@ -34,6 +34,7 @@ class BookDetails extends Component {
     const response = await fetch(apiUrl, options)
     if (response.ok === true) {
       const data = await response.json()
+      console.log(data)
       const updatedData = {
         id: data.book_details.id,
         authorName: data.book_details.author_name,

@@ -15,7 +15,7 @@ const BookDetailsItem = props => {
   return (
     <div className="book-details-card">
       <div className="book-details-card-main">
-        <img src={coverPic} className="book-details-card-img" alt={title}/>
+        <img src={coverPic} className="book-details-card-img" alt={title} />
         <div className="book-details-card-discprtion">
           <h1 className="book-details-card-discprtion-heading">{title}</h1>
           <p className="book-details-card-discprtion-paragraph">{authorName}</p>
@@ -25,7 +25,7 @@ const BookDetailsItem = props => {
             <p className="book-details-card-discprtion-rating">{rating}</p>
           </div>
           <p className="book-details-card-discprtion-status">
-            Status: <span className="book-details-span">this</span>
+            Status: <span className="book-details-span">{readStatus}</span>
           </p>
         </div>
       </div>

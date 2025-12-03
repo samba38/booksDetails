@@ -8,10 +8,11 @@
 .bookshel-heading {
   color: #334155;
   font-family: Roboto;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 100%;
   letter-spacing: 0px;
+  margin-left: 50px;
 }
 
 .bookshel-input {
@@ -55,7 +56,7 @@
 .unorder-btn-filter-list {
   background-color: #ffffff;
   width: 250px;
-  height: 2000px;
+  height: 800vh;
   top: 137px;
   left: 150px;
   padding: 10px;
@@ -96,4 +97,109 @@
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .bookshel-box-conatainer {
+    background-color: white;
+    padding: 30px;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .bookshel-heading {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    display: none;
+  }
+
+  .bookshel-input {
+    width: 264px;
+    height: 46px;
+    top: 137px;
+    left: 1026px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .search-icon-container {
+    background-color: #edeff1;
+    height: 36px;
+    width: 52px;
+    top: 138px;
+    left: 1237px;
+    border-width: 0px;
+  }
+
+  .all-book-sider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bookshel-search-sider {
+    width: 267px;
+    height: 38px;
+    top: 139px;
+    left: 1027px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+  }
+
+  .book-unorder-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+
+  .unorder-btn-filter-list {
+    background-color: #ffffff;
+    width: 250px;
+    height: 200vh;
+    top: 137px;
+    left: 150px;
+    padding: 10px;
+  }
+
+  .book-btn-heading {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .filter-Books-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .search-notfound-container {
+    background-color: transparent;
+
+    padding: 10px;
+  }
+
+  .search-not-img {
+    width: 476px;
+    height: 327px;
+    top: 310px;
+    left: 682px;
+  }
+
+  .search-notfound-paragraph {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+  }
 }

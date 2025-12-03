@@ -35,33 +35,26 @@
 }
 
 @media screen and (max-width: 767px) {
-  .slid-home-img {
-    height: 99px;
-    width: 146px;
-    margin: 15px;
-    align-self: center;
-  }
-
   .silde-heading {
     color: #334155;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: 0px;
     text-align: center;
   }
+  .slid-home-img {
+    height: 250px;
+    width: 256px;
+    margin: 15px;
+    align-self: center;
+  }
   .slid-paragraph {
     color: #475569;
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 0%;
     text-align: center;
-  }
-  .slid-home-img {
-    height: 100px;
-    width: 150px;
-    margin: 15px;
-    align-self: center;
   }
 }

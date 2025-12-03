@@ -107,3 +107,114 @@
 .about-book-card {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  .book-details-card {
+    background-color: #ffffff;
+    height: 1120px;
+    width: 1150px;
+    top: 153px;
+    left: 150px;
+    border-radius: 16px;
+    padding: 40px;
+  }
+
+  .book-details-card-img {
+    height: 400px;
+    width: 270px;
+    top: 217px;
+    left: 427px;
+    border-radius: 14.13px;
+  }
+
+  .book-details-card-discprtion {
+    height: 252px;
+    width: 353px;
+    top: 258px;
+    left: 710px;
+    background-color: transparent;
+    margin-left: 40px;
+  }
+
+  .book-details-card-discprtion-heading {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+
+  .book-details-card-discprtion-paragraph {
+    color: #475569;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+
+  .book-details-card-discprtion-rating {
+    color: #475569;
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+
+  .start-icon-img {
+    color: #fbbf24;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin: 20px;
+  }
+
+  .book-details-card-sider {
+    display: flex;
+  }
+
+  .book-details-card-discprtion-status {
+    color: #475569;
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+
+  .book-details-span {
+    color: #0284c7;
+  }
+
+  .book-details-card-main {
+    display: flex;
+  }
+
+  .horizantal-line {
+    border: 1px solid #94a3b8;
+  }
+
+  .book-details-author-heading {
+    color: #334155;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+
+  .book-details-author-pargraph {
+    color: #475569;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28ppx;
+    letter-spacing: 0px;
+  }
+
+  .about-book-card {
+    margin-top: 60px;
+  }
+}

@@ -29,7 +29,10 @@ const Header = props => {
         <button className="lagout-btn" type="button" onClick={onLogout}>
           Logout
         </button>
-        <img src='https://res.cloudinary.com/dglv9osd0/image/upload/v1746788906/icon_1_yq2gly.png' className='icon-img'/>
+        <img
+          src="https://res.cloudinary.com/dglv9osd0/image/upload/v1746788906/icon_1_yq2gly.png"
+          className="icon-img"
+        />
       </div>
     </nav>
   )

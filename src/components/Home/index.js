@@ -111,38 +111,40 @@ class Home extends Component {
       slidesToScroll: 1,
     }
     return (
-      <div className="home-container">
+      <div>
         <Header />
-        <div className="home-card">
-          <h1 className="home-heading-find-book">
-            Find Your Next Favorite Books?
-          </h1>
-          <p className="home-paragraph-details">
-            You are in the right place. Tell us what titles or genres you have
-            enjoyed in the past, and we will give you surprisingly insightful
-            recommendations.
-          </p>
-          <button
-            className="home-books-btn2"
-            type="button"
-            onClick={this.onGotoBookSheleve}
-          >
-            Find Books
-          </button>
-          <div className="home-books-card">
-            <div className="home-books-sider">
-              <h1 className="home-books-heading">Top Rated Books</h1>
-              <button
-                className="home-books-btn"
-                type="button"
-                onClick={this.onGotoBookSheleve}
-              >
-                Find Books
-              </button>
+        <div className="home-container">
+          <div className="home-card">
+            <h1 className="home-heading-find-book">
+              Find Your Next Favorite Books?
+            </h1>
+            <p className="home-paragraph-details">
+              You are in the right place. Tell us what titles or genres you have
+              enjoyed in the past, and we will give you surprisingly insightful
+              recommendations.
+            </p>
+            <button
+              className="home-books-btn2"
+              type="button"
+              onClick={this.onGotoBookSheleve}
+            >
+              Find Books
+            </button>
+            <div className="home-books-card">
+              <div className="home-books-sider">
+                <h1 className="home-books-heading">Top Rated Books</h1>
+                <button
+                  className="home-books-btn"
+                  type="button"
+                  onClick={this.onGotoBookSheleve}
+                >
+                  Find Books
+                </button>
+              </div>
+              {this.renderAllProducts()}
             </div>
-            {this.renderAllProducts()}
+            <SocialMediaIcons />
           </div>
-          <SocialMediaIcons />
         </div>
       </div>
     )

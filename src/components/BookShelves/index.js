@@ -167,7 +167,7 @@ class BookShelves extends Component {
     const {searchInput, activeBookCard} = this.state
     console.log(activeBookCard)
     return (
-      <div>
+      <>
         <Header />
         <div className="bookshel-box-conatainer">
           <div className="all-book-sider">
@@ -196,7 +196,7 @@ class BookShelves extends Component {
           </div>
           <SocialMediaIcons />
         </div>
-      </div>
+      </>
     )
   }
 }
